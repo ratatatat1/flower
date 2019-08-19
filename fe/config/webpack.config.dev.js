@@ -3,7 +3,7 @@ const htmlWeb=require('html-webpack-plugin');
 const copyWeb=require('copy-webpack-plugin');
 
 module.exports = {
-    mode:"development",
+    mode:"production",
     entry:"./src/app.js",
     output:{
         path:path.resolve(__dirname,'../dev'),
